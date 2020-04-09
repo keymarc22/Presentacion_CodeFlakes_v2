@@ -19,17 +19,18 @@ function esdivisible (n, div){
 function ciclo(){
   for(i=1; i<= numero; i++){
   if(esdivisible(i,3)){
-     document.write("agua")
+     resultado.innerHTML += ("agua")
   }
   if(esdivisible(i,5)){
-     document.write("cate")
+   resultado.innerHTML += ("cate")
   }
   if(!esdivisible(i,3)&&!esdivisible(i,5)){
-     document.write(i)
+   resultado.innerHTML += (i)
   }
-  document.write("<br />");
+   resultado.innerHTML += ("<br />");
  }
 }
+
 
   
   
